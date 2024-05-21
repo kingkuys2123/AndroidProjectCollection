@@ -10,7 +10,7 @@ A collection of android projects in one app for our Mobile Development class
 - Layouts
 - Buttons
 - Calculator
-- Color Match
+- TicTacToe (Midterm Exam)
 - Match 3
 - Passing Intents
 - Menus
