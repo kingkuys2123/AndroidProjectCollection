@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="348dp"
+        android:layout_height="384dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/btnLayoutExercise"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#141414"
+            android:text="@string/layoutExercise"
+            android:textStyle="normal|bold|italic" />
+
+        <Button
+            android:id="@+id/btnButtonExercise"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#141414"
+            android:text="@string/buttonExercise"
+            android:textStyle="normal|bold|italic" />
+
+        <Button
+            android:id="@+id/btnCalculatorExercise"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#141414"
+            android:text="@string/calculatorExercise"
+            android:textStyle="normal|bold|italic" />
+
+        <Button
+            android:id="@+id/btnME"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#141414"
+            android:text="@string/btnMidtermExam"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/btnMatch3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#141414"
+            android:text="@string/Match3"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/btnPassingIntents"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#141414"
+            android:text="@string/btnPassingIntents" />
+
+        <Button
+            android:id="@+id/btnMenus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#141414"
+            android:text="@string/btnMenus" />
+
+        <Button
+            android:id="@+id/btnMaps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#141414"
+            android:text="@string/btnMaps" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:text="@string/exercises"
+        android:textColor="#FFFFFF"
+        android:textSize="60sp"
+        android:textStyle="normal|bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

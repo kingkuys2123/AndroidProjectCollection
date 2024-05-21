@@ -7,7 +7,7 @@ A collection of android projects in one app for our Mobile Development class
 <br>
 
 ## Compiled Projects
-- Layout
+- Layouts
 - Buttons
 - Calculator
 - Color Match
