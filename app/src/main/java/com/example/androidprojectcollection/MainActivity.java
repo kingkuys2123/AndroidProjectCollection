@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9, btn10;
+    Button btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -96,10 +96,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent1);
             }
         });
-
-        btn9 = findViewById(R.id.btnNine);
-
-        btn10  = findViewById(R.id.btnTen);
 
     }
 }
