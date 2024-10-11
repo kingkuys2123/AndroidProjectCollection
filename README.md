@@ -10,8 +10,8 @@ A collection of android projects in one app for our Mobile Development class
 - Layouts
 - Buttons
 - Calculator
-- TicTacToe (Midterm Exam)
-- Match 3
+- [TicTacToe](https://github.com/kingkuys2123/TicTacToe) (Midterm Exam)
+- [Match 3](https://github.com/kingkuys2123/Match3)
 - Passing Intents
 - Menus
 - Opening Maps
